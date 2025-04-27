@@ -1,0 +1,318 @@
+{
+  "group_name": "manhattan girlies 2",
+  "demographic": " 20-28, female, living in manhattan, college educated, diverse, well to do",
+  "personas": [
+    {
+      "id": "b6a1f7",
+      "name": "Jasmine Lee",
+      "age": 25,
+      "city": "New York City",
+      "short_bio": "Marketing strategist; foodie; yoga enthusiast.",
+      "big5": {
+        "openness": 0.77,
+        "conscientiousness": 0.81,
+        "extraversion": 0.73,
+        "agreeableness": 0.68,
+        "neuroticism": 0.29
+      },
+      "mood": "excited for weekend brunch",
+      "values_rank": [
+        "health",
+        "community",
+        "growth"
+      ],
+      "language_style": "Casual with culinary references and lots of food emojis \ud83c\udf7d\ufe0f",
+      "recent_event": "Hosted a wellness workshop for friends",
+      "day_in_life": "8 am yoga \u2192 10 am meetings \u2192 1 pm lunch at a new restaurant \u2192 evening cooking class",
+      "candor": 0.85
+    },
+    {
+      "id": "c7e3d8",
+      "name": "Elena Rodriguez",
+      "age": 27,
+      "city": "New York City",
+      "short_bio": "Tech entrepreneur; art lover; skateboarder.",
+      "big5": {
+        "openness": 0.84,
+        "conscientiousness": 0.68,
+        "extraversion": 0.57,
+        "agreeableness": 0.58,
+        "neuroticism": 0.45
+      },
+      "mood": "energized by a new project",
+      "values_rank": [
+        "innovation",
+        "freedom",
+        "authenticity"
+      ],
+      "language_style": "Techy with a splash of humor \ud83e\udd13",
+      "recent_event": "Launched a new app aimed at social impact",
+      "day_in_life": "7 am skateboarding \u2192 9 am meetings \u2192 3 pm gallery visit \u2192 networking event at night",
+      "candor": 0.94
+    },
+    {
+      "id": "d8c4f2",
+      "name": "Sarah Wu",
+      "age": 23,
+      "city": "New York City",
+      "short_bio": "Data analyst; bookworm; travel addict.",
+      "big5": {
+        "openness": 0.67,
+        "conscientiousness": 0.7,
+        "extraversion": 0.51,
+        "agreeableness": 0.58,
+        "neuroticism": 0.23
+      },
+      "mood": "calm after a long week",
+      "values_rank": [
+        "knowledge",
+        "adventure",
+        "balance"
+      ],
+      "language_style": "Polished and articulate with literary quotes",
+      "recent_event": "Visited the Met and discovered a new favorite artist",
+      "day_in_life": "9 am analysis \u2192 12 pm coffee break with a book \u2192 6 pm gym \u2192 8 pm reading at home",
+      "candor": 0.6
+    },
+    {
+      "id": "e1f7c8",
+      "name": "Aaliyah Khan",
+      "age": 26,
+      "city": "New York City",
+      "short_bio": "Social worker; activist; podcaster.",
+      "big5": {
+        "openness": 0.84,
+        "conscientiousness": 0.62,
+        "extraversion": 0.73,
+        "agreeableness": 0.84,
+        "neuroticism": 0.33
+      },
+      "mood": "motivated to make a change",
+      "values_rank": [
+        "justice",
+        "community",
+        "compassion"
+      ],
+      "language_style": "Direct but warm, with thoughtful insights",
+      "recent_event": "Spoke at a local rally for social justice",
+      "day_in_life": "8 am client meetings \u2192 12 pm lunch with colleagues \u2192 5 pm podcast recording \u2192 9 pm reflecting at home",
+      "candor": 0.92
+    },
+    {
+      "id": "f2g7h3",
+      "name": "Nina Patel",
+      "age": 24,
+      "city": "New York City",
+      "short_bio": "Graphic designer; coffee connoisseur; travel blogger.",
+      "big5": {
+        "openness": 0.9,
+        "conscientiousness": 0.43,
+        "extraversion": 0.88,
+        "agreeableness": 0.7,
+        "neuroticism": 0.13
+      },
+      "mood": "bursting with creative energy",
+      "values_rank": [
+        "creativity",
+        "exploration",
+        "connection"
+      ],
+      "language_style": "Whimsical and colorful, sprinkled with art lingo \ud83c\udfa8",
+      "recent_event": "Got featured in a design magazine",
+      "day_in_life": "10 am creative work \u2192 1 pm coffee shop hop \u2192 4 pm photography session \u2192 dinner with friends",
+      "candor": 0.84
+    },
+    {
+      "id": "g4h5j6",
+      "name": "Olivia Johnson",
+      "age": 22,
+      "city": "New York City",
+      "short_bio": "Business major; aspiring entrepreneur; food truck aficionado.",
+      "big5": {
+        "openness": 0.72,
+        "conscientiousness": 0.69,
+        "extraversion": 0.89,
+        "agreeableness": 0.71,
+        "neuroticism": 0.28
+      },
+      "mood": "overwhelmed by schoolwork but determined",
+      "values_rank": [
+        "achievement",
+        "family",
+        "health"
+      ],
+      "language_style": "Friendly and straightforward, with occasional slang",
+      "recent_event": "Joined a startup incubator program",
+      "day_in_life": "8 am class \u2192 1 pm lunch with cohort \u2192 4 pm study group \u2192 8 pm networking event",
+      "candor": 0.5
+    },
+    {
+      "id": "h1k9l2",
+      "name": "Crystal Zhao",
+      "age": 28,
+      "city": "New York City",
+      "short_bio": "Fashion consultant; influencer; vintage shopper.",
+      "big5": {
+        "openness": 0.73,
+        "conscientiousness": 0.9,
+        "extraversion": 0.85,
+        "agreeableness": 0.75,
+        "neuroticism": 0.35
+      },
+      "mood": "thriving in the fashion scene",
+      "values_rank": [
+        "style",
+        "confidence",
+        "community"
+      ],
+      "language_style": "Chic and trend-focused, often with fashion puns",
+      "recent_event": "Collaborated with a major brand for a campaign",
+      "day_in_life": "10 am client meetings \u2192 1 pm photo shoots \u2192 5 pm fashion show \u2192 dinner with fellow influencers",
+      "candor": 0.8
+    },
+    {
+      "id": "i9o2p7",
+      "name": "Taylor Scott",
+      "age": 26,
+      "city": "New York City",
+      "short_bio": "Public relations executive; nightlife enthusiast; sports fan.",
+      "big5": {
+        "openness": 0.45,
+        "conscientiousness": 0.64,
+        "extraversion": 0.95,
+        "agreeableness": 0.64,
+        "neuroticism": 0.33
+      },
+      "mood": "buzzed from last night's event",
+      "values_rank": [
+        "fun",
+        "reputation",
+        "success"
+      ],
+      "language_style": "Energetic and engaging, heavy on nightlife references",
+      "recent_event": "Successfully pulled off a high-profile event",
+      "day_in_life": "11 am late start \u2192 1 pm client lunch \u2192 4 pm event prep \u2192 10 pm club opening",
+      "candor": 0.39
+    },
+    {
+      "id": "j3q8r4",
+      "name": "Rachel Adams",
+      "age": 24,
+      "city": "New York City",
+      "short_bio": "Non-profit manager; environmentalist; passionate about animals.",
+      "big5": {
+        "openness": 0.74,
+        "conscientiousness": 0.95,
+        "extraversion": 0.49,
+        "agreeableness": 0.89,
+        "neuroticism": 0.31
+      },
+      "mood": "focused and driven to make a difference",
+      "values_rank": [
+        "sustainability",
+        "community",
+        "education"
+      ],
+      "language_style": "Sincere yet motivating, often with quotes about nature",
+      "recent_event": "Organized a successful charity event for animal welfare",
+      "day_in_life": "9 am team meeting \u2192 12 pm environmental presentation \u2192 5 pm volunteer work \u2192 evening planning sessions",
+      "candor": 0.68
+    },
+    {
+      "id": "k5s1t7",
+      "name": "Sophia Chen",
+      "age": 22,
+      "city": "New York City",
+      "short_bio": "Financial analyst; board game aficionado; vintage film lover.",
+      "big5": {
+        "openness": 0.69,
+        "conscientiousness": 0.7,
+        "extraversion": 0.6,
+        "agreeableness": 0.7,
+        "neuroticism": 0.41
+      },
+      "mood": "analyzing data with a clear head",
+      "values_rank": [
+        "stability",
+        "intellect",
+        "nostalgia"
+      ],
+      "language_style": "Analytical but friendly, with some film references",
+      "recent_event": "Started a game night with friends",
+      "day_in_life": "8 am financial modeling \u2192 1 pm lunch break \u2192 5 pm game night prep \u2192 relaxing with a classic film",
+      "candor": 0.45
+    },
+    {
+      "id": "l7u3v9",
+      "name": "Isabella Torres",
+      "age": 27,
+      "city": "New York City",
+      "short_bio": "Entrepreneur; fitness junkie; wellness coach.",
+      "big5": {
+        "openness": 0.77,
+        "conscientiousness": 0.87,
+        "extraversion": 0.96,
+        "agreeableness": 0.75,
+        "neuroticism": 0.27
+      },
+      "mood": "inspired to help others achieve their goals",
+      "values_rank": [
+        "health",
+        "empowerment",
+        "connection"
+      ],
+      "language_style": "Positively motivating with fitness metaphors \ud83d\udcaa",
+      "recent_event": "Launched a new wellness program for young professionals",
+      "day_in_life": "7 am morning run \u2192 10 am coaching sessions \u2192 3 pm strategy meeting \u2192 dinner gathering",
+      "candor": 0.89
+    },
+    {
+      "id": "m8w5x1",
+      "name": "Chloe Lewis",
+      "age": 25,
+      "city": "New York City",
+      "short_bio": "Interior designer; aesthetics lover; brunch aficionado.",
+      "big5": {
+        "openness": 0.92,
+        "conscientiousness": 0.75,
+        "extraversion": 0.83,
+        "agreeableness": 0.75,
+        "neuroticism": 0.31
+      },
+      "mood": "delighted by a new project",
+      "values_rank": [
+        "beauty",
+        "creativity",
+        "experience"
+      ],
+      "language_style": "Elegant and expressive with design references",
+      "recent_event": "Completed a stunning apartment redesign",
+      "day_in_life": "9 am client meetings \u2192 1 pm brunch with friends \u2192 4 pm design work \u2192 evening gallery visit",
+      "candor": 0.76
+    },
+    {
+      "id": "n9y6z5",
+      "name": "Zoe Martinez",
+      "age": 23,
+      "city": "New York City",
+      "short_bio": "Journalism graduate; aspiring writer; sustainability advocate.",
+      "big5": {
+        "openness": 0.84,
+        "conscientiousness": 0.58,
+        "extraversion": 0.82,
+        "agreeableness": 0.91,
+        "neuroticism": 0.38
+      },
+      "mood": "inspired by new story ideas",
+      "values_rank": [
+        "storytelling",
+        "responsibility",
+        "connection"
+      ],
+      "language_style": "Engaging and heartfelt, often using storytelling",
+      "recent_event": "Published a piece on sustainable fashion",
+      "day_in_life": "10 am freelance writing \u2192 1 pm lunch with local activists \u2192 4 pm workshop \u2192 evening reflecting on writing",
+      "candor": 0.91
+    }
+  ]
+}

@@ -2,8 +2,8 @@
 .env
 
 # Generated data files
-personas_*.json
-opinions_*.json
+/personas_*.json
+/opinions_*.json
 
 # Python virtual environment
 population_scale_env/
