@@ -1,6 +1,6 @@
 
 > **Disclaimer / Epigraph**  
-> The prose below was hammered out by a Large Language Model, but every concept, side-eye, and bad-heuristic quip is straight from **Advait Riker**. Any wisdom is mine; any hallucination is the model’s.
+> The prose below was hammered out by a Large Language Model, but every concept, side-eye, and bad-heuristic quip is straight from **Advait Raykar's**. Any wisdom is mine; any hallucination is the model’s.
 
 # Population-Scale Persona & Survey Toolkit  
 _A three-script pipeline for fabricating whole focus-groups out of thin air, grilling them with questions, and ogling the data in a browser—faster (and cheaper) than scheduling a single real Zoom._
