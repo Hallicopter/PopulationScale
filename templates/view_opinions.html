@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>View Opinions - {{ opinions_filename }}</title>
+    <style>
+        body { font-family: sans-serif; margin: 2em; background-color: #f8f9fa; color: #333; }
+        h1 { color: #0056b3; border-bottom: 2px solid #ccc; padding-bottom: 0.3em; margin-bottom: 1em;}
+        h2 { color: #555; margin-top: 2em; background-color: #e9ecef; padding: 0.5em; border-radius: 4px;}
+        .container { max-width: 900px; margin: auto; }
+        .persona-card { background-color: #fff; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 1.5em; padding: 1.5em; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .persona-details h3 { margin-top: 0; color: #007bff; font-size: 1.2em; }
+        .persona-details { margin-bottom: 1em; border-bottom: 1px dashed #eee; padding-bottom: 1em; }
+        .persona-details p, .persona-details ul { margin-bottom: 0.5em; font-size: 0.95em; }
+        .persona-details strong { color: #495057; }
+        .persona-details ul { list-style: none; padding-left: 0; }
+        .persona-details li { margin-bottom: 0.2em; }
+        .reply { background-color: #f0f0f0; padding: 1em; border-radius: 4px; font-style: italic; margin-top: 1em; }
+        .error { color: #dc3545; background-color: #f8d7da; border: 1px solid #f5c6cb; padding: 1em; border-radius: 4px; margin-bottom: 1em; }
+        .back-link { display: inline-block; margin-bottom: 2em; color: #0056b3; text-decoration: none; }
+        .back-link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="{{ url_for('index') }}" class="back-link">&larr; Back to List</a>
+        <h1>Survey Results: {{ opinions_filename }}</h1>
+        
+        {% if persona_filename %}
+            <p><em>Based on personas from: {{ persona_filename }}</em></p>
+        {% endif %}
+
+        {% if persona_file_error %}
+            <div class="error"><strong>Error loading personas:</strong> {{ persona_file_error }}</div>
+        {% endif %}
+
+        <h2>Question:</h2>
+        <p>{{ question }}</p>
+
+        <h2>Responses:</h2>
+        {% if results %}
+            {% for result in results %}
+                <div class="persona-card">
+                    {% if result.persona %}
+                        <div class="persona-details">
+                            <h3>{{ result.persona.get('name', 'Unknown Name') }}</h3>
+                            <p><strong>ID:</strong> {{ result.persona.get('id', 'N/A') }} | <strong>Age:</strong> {{ result.persona.get('age', 'N/A') }} | <strong>City:</strong> {{ result.persona.get('city', 'N/A') }}</p>
+                            <p><strong>Bio:</strong> {{ result.persona.get('short_bio', 'N/A') }}</p>
+                            {% set big5 = result.persona.get('big5', {}) %}
+                            {% if big5 %}
+                                <p><strong>Big5 Traits:</strong></p>
+                                <ul>
+                                    {% for trait, score in big5.items() %}
+                                        <li><strong>{{ trait|capitalize }}:</strong> {{ score }}</li>
+                                    {% endfor %}
+                                </ul>
+                            {% else %}
+                                <p><strong>Big5 Traits:</strong> N/A</p>
+                            {% endif %}
+                        </div>
+                        <div class="reply">
+                            {{ result.reply }}
+                        </div>
+                    {% else %}
+                         <div class="persona-details">
+                             <h3>Persona details not found</h3>
+                             <p>Could not find matching persona in {{ persona_filename or 'the specified persona file' }}. Displaying reply only.</p>
+                         </div>
+                         <div class="reply">
+                            {{ result.reply }}
+                        </div>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No answers found in this opinions file.</p>
+        {% endif %}
+    </div>
+</body>
+</html>

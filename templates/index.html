@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Survey Results</title>
+    <style>
+        body { font-family: sans-serif; margin: 2em; background-color: #f8f9fa; color: #333; }
+        h1 { color: #0056b3; border-bottom: 2px solid #ccc; padding-bottom: 0.3em;}
+        ul { list-style: none; padding: 0; }
+        li { background-color: #fff; margin-bottom: 0.5em; border: 1px solid #ddd; border-radius: 4px; }
+        li a { display: block; padding: 0.8em 1.2em; text-decoration: none; color: #0056b3; transition: background-color 0.2s ease; }
+        li a:hover { background-color: #e9ecef; }
+        .no-files { color: #6c757d; font-style: italic; }
+    </style>
+</head>
+<body>
+    <h1>Available Survey Results</h1>
+    {% if opinion_files %}
+        <ul>
+            {% for filename in opinion_files %}
+                <li><a href="{{ url_for('view_opinions', filename=filename) }}">{{ filename }}</a></li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p class="no-files">No opinion files (opinions_*.json) found in the current directory.</p>
+    {% endif %}
+</body>
+</html>

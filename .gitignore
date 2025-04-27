@@ -1,0 +1,33 @@
+# Environment variables
+.env
+
+# Generated data files
+personas_*.json
+opinions_*.json
+
+# Python virtual environment
+population_scale_env/
+venv/
+*.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
